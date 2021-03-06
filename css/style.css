@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(233 232 232 / 45%);
+}
+
+.navbar {
+    border-bottom: greenyellow;
+    /* opacity: 0.8; */
+}
+
+#home-section{
+    padding-top: 75px;
+}
+
+#home-section .carousel-item img{
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+#home-section .carousel-item{
+    max-height: 550px;
+}
+
+.category-item .card{
+    width: 100%; 
+    height: 100%;
+}
+
+.category-item .card img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.section{
+    background-color: white;
+}
+
+#main-carousel .item img{
+    height: 475px;
+}
+
+#aboutus-section img{
+    height: 250px;
+    width: 250px;
+}
+
+.owl-items-navigation .owl-prev,  .owl-items-navigation .owl-next{
+    background-color: yellowgreen;
+    border-color: transparent;
+    margin: 0px 2px;
+    color: white;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    #home-section .carousel-item img{
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1410px;
+    }
+}
