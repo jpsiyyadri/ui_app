@@ -59,10 +59,11 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    #home-section .carousel-item img{
-        height: 200px;
-        min-height: 200px;
-        max-height: 200px;
+    #main-carousel .item img{
+        height: 250px;
+    }
+    #aboutus-section .card {
+        border: 0px;
     }
 }
 
